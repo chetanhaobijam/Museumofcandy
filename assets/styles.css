@@ -1,7 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: steelblue;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: dodgerblue;
+}
+
 body {
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 	padding: 0;
 }
+
+/*Navigation Bar Classes*/
+.navbar, .navbar-brand {
+	text-transform: uppercase;
+	background-color: pink;
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+.navbar-dark .navbar-brand {
+	color: red;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+/*1st Section Classes*/
+.col-md-6 {
+	padding: 0;
+}
+
+.museumofcandy {
+	background-color: pink;
+	font-weight: 300;
+	padding-top: 70px;
+}
+
+.titlerepeat {
+	text-transform: uppercase;
+	font-size: 3.5rem;
+	text-align: center;
+}
+
+.titlerepeat span {
+	color: red;
+}
+
+/*2nd Section Classes*/
