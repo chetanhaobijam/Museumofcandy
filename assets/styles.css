@@ -39,20 +39,62 @@ body {
 	padding: 0;
 }
 
-.museumofcandy {
+.firstsection {
 	background-color: pink;
 	font-weight: 300;
-	padding-top: 70px;
+	padding: 70px 0;
 }
 
 .titlerepeat {
 	text-transform: uppercase;
-	font-size: 3.5rem;
+	font-size: 2rem;
 	text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+	.titlerepeat {
+		font-size: 2.5rem;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.titlerepeat {
+		font-size: 3.5rem;
+	}
 }
 
 .titlerepeat span {
 	color: red;
 }
 
+.image {
+	background: pink;
+	padding-bottom: 50px;
+}
+
 /*2nd Section Classes*/
+.secondsection {
+	background-color: pink;
+}
+
+.museumheader {
+	font-size: 2rem;
+}
+
+.lead {
+	width: 80%;
+	font-size: 1.1rem;
+}
+
+/*Footer*/
+footer {
+	font-size: 0.8rem;
+}
+
+@media screen and (min-width: 576px) {
+	footer {
+		font-size: 1.2rem;
+		font-weight: 300;
+		background-color: pink;
+	}
+}
